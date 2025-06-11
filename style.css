@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: #121212;
+   font-family: Arial, sans-serif;
+ 
+}
+/* navbar-part-start */
+.nav {
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+    margin-left: 10.5rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.nav-link{
+    color: #5e5e5e;
+}
+.nav-link:hover{
+    color: #fd6f00;
+}
+/* navbar-part-end */
+/* hire-me-button-part-start */
+.hire-me-button{
+    color: white;
+    background-color: transparent;
+    border-color: #b1aeac48;
+    height: 2.2rem;
+    width: 6.5rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+    transition: all 0.9s ;
+    cursor: pointer;
+}
+.hire-me-button:hover{
+ box-shadow: 3px 3px 14px rgb(232, 101, 1),0 40px 12px rgb(232, 101, 1) inset, 0 -40px 12px #fd6e00 inset;
+ /* box-shadow: 3px 3px 14px rgb(232, 101, 1); */
+  border: 1px solid rgb(232, 101, 1);
+}
+/*  hire-me-button-part-start */
+/* introduction-part-start */
+.introduction {
+    position: relative;
+    right: 5rem;
+    margin-top: 7.5rem;
+}
+.hi-i-am{
+  color:#5e5e5e ;
+  font-size: 1.7rem;
+}
+.name{
+    position: relative;
+    bottom: 1rem;
+    color: #959595;
+    font-size: 2rem;
+}
+.skill-main{
+    position: relative;
+    bottom: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 28%);
+    letter-spacing: -4px;
+    cursor: pointer;
+}
+
+.skill-main span{
+    transition: 0.5s ease-out;
+}
+.skill-main span:nth-child(1) {
+  margin-right: 1rem;
+}
+.skill-main span:nth-child(1):after {
+  content: "";
+}
+.skill-main span:nth-child(2) {
+  margin-left: 30px;
+}
+.skill-main span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+.skill-main:hover span {
+  color: #fd6e00;
+  text-shadow: 0 0 10px  #fd6e00, 0 0 20px #fd6e00, 0 0 40px  #fd6e00;
+}
+/* introduction-part-end  */
+/* social-media-account-logo-start  */
+.social-media-icons {
+  position: relative;
+  right: 5rem;
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+  gap: 1rem;
+  cursor: pointer;
+  
+}
+.social-icon-linkedin {
+  position: relative;
+  bottom: 0.1rem;
+  height:3rem;
+  width: 3rem;
+}
+/* social-media-account-logo-end  */
+.hireMe-downloadCv-button {
+  position: relative;
+  margin-top: 4rem;
+  gap: 1rem;
+  display: flex;
+  right: 5rem;
+  
+}
+.btn {
+  color: white;
+  background-color: transparent;
+    border-color: #b1aeac48;
+    height: 2.7rem;
+    width: 8.5rem;
+    border-radius: 0.4rem;
+    text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+     transition: all 0.9s ;
+    cursor: pointer;
+}
+.cv-button{
+  width: 12rem;
+}
+.btn:hover{
+ box-shadow: 3px 3px 14px rgb(232, 101, 1),0 40px 12px rgb(232, 101, 1) inset, 0 -40px 12px #fd6e00 inset;
+  border: 1px solid rgb(232, 101, 1);
+}
+
+.experience-project-client-box {
+  display: flex;
+  position: relative;
+  right: 5rem;
+  justify-content: space-between;
+  background: rgb(27,27,27); /* Transparent dark */
+  backdrop-filter: blur(2rem);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  border-radius: 12px;
+  gap: 0.5rem;
+  max-width: 32rem;
+  height: 7rem;
+  width: 100%;
+  margin-top: 3rem;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.stat-box {
+  flex: 1;
+  margin-left: 1rem;
+  /* text-align: center; */
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-box:last-child {
+  border-right: none;
+}
+
+.stat-box h2 {
+  color: #ff7a00; /* Bright orange */
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.stat-box p {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+}
+/* <!-- experience-project-client-box-part-end --> */
+/* <!-- sheraz-img-start-part --> */
+.sheraz-img{
+  position: relative;
+  bottom: 34rem;
+  margin-left: 48rem;
+  border: 5px solid white;
+  height: 27.5rem;
+  width: 27.5rem;
+  border-radius: 20rem;
+  text-align: center;
+  padding: 1rem;
+  transition: all 0.5s ;
+  cursor: pointer;
+}
+.sheraz{
+  height: 25rem;
+  width: 25rem;
+}
+.sheraz-img:hover{
+ box-shadow: 3px 3px 14px rgb(231, 230, 230),0 40px 12px rgb(240, 239, 239) inset, 0 -40px 12px #dbdbda inset;
+  border: 1px solid rgb(241, 239, 238);
+}
