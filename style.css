@@ -259,3 +259,112 @@ body {
       font-size: 13px;
       color: #aaa;
     }
+    /* About-section-part-start */
+     .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      gap: 60px;
+      flex-wrap: wrap;
+    }
+    .about-img {
+      flex: 1;
+      max-width: 400px;
+    }
+    .about-img img {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .about-content {
+      flex: 1;
+      max-width: 600px;
+    }
+    .about-content h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .about-content h3 {
+      font-weight: 400;
+      color: #aaa;
+      margin-bottom: 25px;
+    }
+    .about-content p {
+      line-height: 1.7;
+      color: #ccc;
+    }
+    .download-btn {
+      margin-top: 25px;
+    }
+    .download-btn a {
+      text-decoration: none;
+      background-color: orange;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .download-btn a:hover {
+      background-color: #e69500;
+    }
+    /* about-service-part-end */
+/* skill-container-part-start */
+.skills-container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .circle {
+      position: relative;
+      width: 100px;
+      height: 100px;
+    }
+
+    .circle svg {
+      transform: rotate(-90deg);
+    }
+
+    .circle circle {
+      fill: none;
+      stroke-width: 10;
+    }
+
+    .circle .bg {
+      stroke: #333;
+    }
+
+    .circle .progress {
+      stroke: orange;
+      stroke-linecap: round;
+    }
+
+    .circle .icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 36px;
+      height: 36px;
+      filter: grayscale(1) brightness(100);
+    }
+
+    .skill-percentage {
+      margin-top: 10px;
+      font-weight: bold;
+      color: orange;
+    }
+
+    .skill-name {
+      font-size: 14px;
+      color: #aaa;
+    }
