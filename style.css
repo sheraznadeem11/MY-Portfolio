@@ -278,19 +278,21 @@ body {
       object-fit: cover;
     }
     .about-content {
+      position: relative;
+      bottom: 8rem;
       flex: 1;
       max-width: 600px;
     }
     .about-content h1 {
       position: relative;
-      bottom: 10rem;
+      bottom: 4rem;
       color: ghostwhite;
       font-size: 36px;
       
     }
     .about-content h3 {
       position: relative;
-      bottom: rem;
+      bottom:3rem;
       font-weight: 300;
       font-size: 1.5rem;
       width: 50rem;
