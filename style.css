@@ -273,13 +273,15 @@ body {
       max-width: 400px;
     }
     .about-img img {
+      position: relative;
+      bottom: 2rem;
       width: 100%;
       border-radius: 12px;
       object-fit: cover;
     }
     .about-content {
       position: relative;
-      bottom: 8rem;
+      bottom: 5rem;
       flex: 1;
       max-width: 600px;
     }
@@ -301,25 +303,41 @@ body {
     }
     .about-content p {
     position: relative;
-    bottom: 1.1rem;
-     font-size: 1.3rem;
-      color: #ccc;
-    }
-    .download-btn {
-      margin-top: 25px;
-    }
-    .download-btn a {
-      text-decoration: none;
-      background-color: orange;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
-    .download-btn a:hover {
-      background-color: #e69500;
-    }
+    font-size: 1.2rem;
+    color: #ccc;
+    width: 38rem;
+    text-align: justify;
+    line-height: 1.9rem;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   .download-btn {
+  margin-top: 3rem;
+}
+
+.download-btn a {
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+  font-size: 1rem;
+}
+
+.download-btn a:hover {
+  background-color: #e69500;
+}
+
+.download-btn i {
+  font-size: 1.1rem;
+}
+
     /* about-service-part-end */
 /* skill-container-part-start */
 .skills-container {
